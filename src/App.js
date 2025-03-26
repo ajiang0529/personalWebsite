@@ -463,10 +463,6 @@ function App() {
                     <GithubIcon className="w-5 h-5 mr-2" />
                     View Code
                   </a>
-                  <a href="https://rag-pipeline-demo.vercel.app" className="flex items-center text-orange-400 hover:text-orange-300">
-                    <ExternalLinkIcon className="w-5 h-5 mr-2" />
-                    Live Demo
-                  </a>
                 </div>
               </div>
             </div>
@@ -492,13 +488,9 @@ function App() {
                   <li>Showcased projects and skills with an intuitive and professional interface</li>
                 </ul>
                 <div className="flex space-x-4">
-                  <a href="https://github.com/ajiang0529/portfolio" className="flex items-center text-orange-400 hover:text-orange-300">
+                  <a href="https://github.com/ajiang0529/personalWebsite" className="flex items-center text-orange-400 hover:text-orange-300">
                     <GithubIcon className="w-5 h-5 mr-2" />
                     View Code
-                  </a>
-                  <a href="https://andyjiang.vercel.app" className="flex items-center text-orange-400 hover:text-orange-300">
-                    <ExternalLinkIcon className="w-5 h-5 mr-2" />
-                    Live Demo
                   </a>
                 </div>
               </div>
