@@ -1,7 +1,6 @@
 # Andy Jiang - Personal Portfolio Website
 
-Welcome to the source code for my personal portfolio website built with **React** and **Tailwind CSS**. This site showcases my experience, projects, education, and skills in a modern, responsive, and professional format.
-
+Welcome to the source code for my personal portfolio website built with **React** and **Tailwind CSS**. This site showcases my experience, projects, education, and skills!
 ## 🖥️ Live Demo
 
 🔗 [Visit the Live Site](https://andyjiang.vercel.app)
