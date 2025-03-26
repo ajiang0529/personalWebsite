@@ -19,7 +19,8 @@ function App() {
       <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
-            <div className="flex items-center">
+            <div className="flex items-center space-x-3">
+              <img src={profilePic} alt="Andy Jiang" className="h-8 w-8 object-contain rounded-full" />
               <span className="text-3xl font-black text-orange-400 hover:text-orange-300 transition-all duration-300 tracking-wider uppercase drop-shadow-2xl hover:drop-shadow-orange-500/50">
                 Andy Jiang
               </span>
