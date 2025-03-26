@@ -91,7 +91,7 @@ function App() {
               </div>
             </div>
             <div className="hidden md:block md:w-1/3">
-              <div className="bg-gray-700 h-64 w-64 rounded-full mx-auto mt-8 md:mt-0 overflow-hidden">
+              <div className="bg-gray-700 h-96 w-96 rounded-full mx-auto mt-8 md:mt-0 overflow-hidden">
                 <img 
                   src={profilePic} 
                   alt="Andy Jiang" 
