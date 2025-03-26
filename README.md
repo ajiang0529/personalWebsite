@@ -48,3 +48,6 @@ Feel free to reach out:
 - 📧 Email: [andy123jiang@gmail.com](mailto:andy123jiang@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/andyjiang25](https://www.linkedin.com/in/andyjiang25)  
 - 💻 GitHub: [github.com/ajiang0529](https://github.com/ajiang0529)
+
+## 📃 License
+This project is licensed under the MIT License.
