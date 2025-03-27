@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { ExternalLinkIcon, GithubIcon, LinkedinIcon, MailIcon, DownloadIcon, ChevronRightIcon } from 'lucide-react';
-import profilePic from './pictures/ProfilePic.jpeg';
-import umdLogo from './pictures/University_of_Maryland_seal.svg.png';
-import nasaLogo from './pictures/NasaLogo.png';
-import greatWallLogo from './pictures/GreatWallLogo.png';
+import profilePic from './resources/ProfilePic.jpeg';
+import umdLogo from './resources/University_of_Maryland_seal.svg.png';
+import nasaLogo from './resources/NasaLogo.png';
+import greatWallLogo from './resources/GreatWallLogo.png';
+import resume from './resources/Andy_Jiang_Resume_v4.pdf';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -253,7 +255,7 @@ function App() {
                 </h3>
                 <div className="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-600 hover:border-orange-500/50">
                   <p className="leading-relaxed text-gray-300">
-                    I am a Computer Science professional with expertise in AI research, software engineering, and full-stack development. My experience spans from developing RAG pipelines and optimizing ETL processes to creating web applications and implementing machine learning algorithms. I am passionate about leveraging technology to solve complex problems and improve efficiency.
+                  I'm a developer passionate about pushing the boundaries of artificial intelligence and software engineering. My favorite work revolves around about optimizing machine learning models, designing intelligent systems, and solving complex computational challenges. AI research, full-stack development, and data science. Currently, I'm an AI researcher at the University of Maryland, specializing in LLM tokenization, optimization, and security. I contribute to the development of automated testing software and advanced tokenization techniques, ensuring that the latest LLMs are efficient and secure. Whether I'm engineering ETL pipelines, developing virtual agents like NOVA for NASA, or creating full-stack web applications, I'm driven by the potential to create technology that can dramatically improve efficiency and user experience. I'm always eager to explore new technologies, optimize performance, and develop solutions that push the boundaries of what's possible in software and artificial intelligence.
                   </p>
                   <div className="mt-6 flex space-x-4">
                     <a href="https://github.com/ajiang0529" className="flex items-center text-orange-400 hover:text-orange-300">
@@ -264,7 +266,7 @@ function App() {
                       <LinkedinIcon className="w-5 h-5 mr-2" />
                       LinkedIn
                     </a>
-                    <a href="/resume.pdf" className="flex items-center text-orange-400 hover:text-orange-300">
+                    <a href={resume} className="flex items-center text-orange-400 hover:text-orange-300">
                       <DownloadIcon className="w-5 h-5 mr-2" />
                       Resume
                     </a>
