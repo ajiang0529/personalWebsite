@@ -255,7 +255,7 @@ function App() {
                 </h3>
                 <div className="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-600 hover:border-orange-500/50">
                   <p className="leading-relaxed text-gray-300">
-                  I'm a developer passionate about pushing the boundaries of artificial intelligence and software engineering. My favorite work revolves around about optimizing machine learning models, designing intelligent systems, and solving complex computational challenges. AI research, full-stack development, and data science.
+                  I'm a developer passionate about pushing the boundaries of artificial intelligence and software engineering. My favorite work revolves around optimizing machine learning models, designing intelligent systems, and solving complex computational challenges. AI research, full-stack development, and data science.
                   </p>
                   <p className="leading-relaxed text-gray-300 mt-4">
                   Currently, I'm an AI researcher at the University of Maryland, specializing in LLM tokenization, optimization, and security. I contribute to the development of automated testing software and advanced tokenization techniques, ensuring that the latest LLMs are efficient and secure.
