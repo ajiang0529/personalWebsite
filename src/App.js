@@ -255,7 +255,13 @@ function App() {
                 </h3>
                 <div className="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-600 hover:border-orange-500/50">
                   <p className="leading-relaxed text-gray-300">
-                  I'm a developer passionate about pushing the boundaries of artificial intelligence and software engineering. My favorite work revolves around about optimizing machine learning models, designing intelligent systems, and solving complex computational challenges. AI research, full-stack development, and data science. Currently, I'm an AI researcher at the University of Maryland, specializing in LLM tokenization, optimization, and security. I contribute to the development of automated testing software and advanced tokenization techniques, ensuring that the latest LLMs are efficient and secure. Whether I'm engineering ETL pipelines, developing virtual agents like NOVA for NASA, or creating full-stack web applications, I'm driven by the potential to create technology that can dramatically improve efficiency and user experience. I'm always eager to explore new technologies, optimize performance, and develop solutions that push the boundaries of what's possible in software and artificial intelligence.
+                  I'm a developer passionate about pushing the boundaries of artificial intelligence and software engineering. My favorite work revolves around about optimizing machine learning models, designing intelligent systems, and solving complex computational challenges. AI research, full-stack development, and data science.
+                  </p>
+                  <p className="leading-relaxed text-gray-300 mt-4">
+                  Currently, I'm an AI researcher at the University of Maryland, specializing in LLM tokenization, optimization, and security. I contribute to the development of automated testing software and advanced tokenization techniques, ensuring that the latest LLMs are efficient and secure.
+                  </p>
+                  <p className="leading-relaxed text-gray-300 mt-4">
+                  Whether I'm engineering ETL pipelines, developing virtual agents like NOVA for NASA, or creating full-stack web applications, I'm driven by the potential to create technology that can dramatically improve efficiency and user experience. I'm always eager to explore new technologies, optimize performance, and develop solutions that push the boundaries of what's possible in software and artificial intelligence.
                   </p>
                   <div className="mt-6 flex space-x-4">
                     <a href="https://github.com/ajiang0529" className="flex items-center text-orange-400 hover:text-orange-300">
