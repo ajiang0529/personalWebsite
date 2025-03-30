@@ -214,6 +214,7 @@ function App() {
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Node.js</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">MongoDB</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ServiceNow</span>
+                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Tailwind</span>
                   </div>
                 </div>
               </div>
