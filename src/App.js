@@ -4,7 +4,7 @@ import profilePic from './resources/ProfilePic.jpeg';
 import umdLogo from './resources/University_of_Maryland_seal.svg.png';
 import nasaLogo from './resources/NasaLogo.png';
 import greatWallLogo from './resources/GreatWallLogo.png';
-import resume from './resources/Andy_Jiang_Resume_v4.pdf';
+import resume from './resources/Andy_Jiang_Resume_v15.pdf';
 
 
 function App() {
@@ -74,15 +74,12 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="md:flex md:items-center md:justify-between">
             <div className="md:w-2/3">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              <h1 className="text-5xl md:text-6xl font-bold mb-4">
                 Hello, I'm Andy Jiang
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6">
                 Software Engineer & AI Researcher
               </h2>
-              <p className="text-lg mb-8">
-                Specializing in AI/ML technologies, full-stack development, and data science
-              </p>
               <div className="flex space-x-4">
                 <a href="#contact" className="bg-orange-500 text-white py-2 px-6 rounded-lg font-medium hover:bg-orange-600 transition duration-300">
                   Contact Me
@@ -174,7 +171,7 @@ function App() {
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">PyTorch</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Scikit-learn</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">LangChain</span>
-                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">RAG Pipelines</span>
+                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">RAG</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Seaborn</span>
                   </div>
                 </div>
@@ -187,7 +184,6 @@ function App() {
                     Cloud & DevOps
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">GCP</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">AWS</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Azure</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Docker</span>
@@ -207,14 +203,14 @@ function App() {
                     Frameworks & Technologies
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Cython</span>
-                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Django</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Express.js</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">React.js</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Node.js</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">MongoDB</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ServiceNow</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Tailwind</span>
+                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">MySQL</span>
+                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">PostgreSQL</span>
                   </div>
                 </div>
               </div>
@@ -349,9 +345,10 @@ function App() {
               <p className="text-gray-400 mt-2 md:mt-0">June 2023 – December 2023</p>
             </div>
             <div className="mt-4 flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">JavaScript</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ServiceNow</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">React</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Express</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">MySQL</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Python</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Hugging Face</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Git</span>
@@ -383,17 +380,18 @@ function App() {
           <div className="flex-1 bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-[1.02] transition-transform duration-300 border border-gray-700 max-w-2xl md:mr-auto">
             <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
               <div>
-                <h3 className="text-2xl font-bold text-orange-400">Full-Stack Web Developer</h3>
+                <h3 className="text-2xl font-bold text-orange-400">Software Engineer</h3>
                 <p className="text-lg text-gray-300 mt-1">Great Wall Inc.</p>
               </div>
               <p className="text-gray-400 mt-2 md:mt-0">September 2019 – August 2021</p>
             </div>
             <div className="mt-4 flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">MongoDB</span>
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Express</span>
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">React</span>
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Node.js</span>
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">SQL</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">C#</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ASP.NET</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">PostgreSQL</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">HTML</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">CSS</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">JavaScript</span>
             </div>
           </div>
         </div>
@@ -510,7 +508,7 @@ function App() {
               <div className="p-6">
                 <div className="flex items-center justify-center mb-6">
                   <span className="text-orange-500 text-2xl font-light mx-2">[</span>
-                  <h3 className="text-xl font-bold text-orange-400">Homework Virtual Assistant</h3>
+                  <h3 className="text-xl font-bold text-orange-400">NASA Prototype Virtual Agent</h3>
                   <span className="text-orange-500 text-2xl font-light mx-2">]</span>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
