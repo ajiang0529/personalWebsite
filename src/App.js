@@ -386,8 +386,8 @@ function App() {
               <p className="text-gray-400 mt-2 md:mt-0">September 2019 – August 2021</p>
             </div>
             <div className="mt-4 flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">C#</span>
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ASP.NET</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Node.js</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">React.js</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">PostgreSQL</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">HTML</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">CSS</span>
