@@ -146,6 +146,7 @@ function App() {
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">JavaScript</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">TypeScript</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">C</span>
+                    <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">C#</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Java</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">SQL</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">HTML/CSS</span>
@@ -206,6 +207,7 @@ function App() {
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Express.js</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">React.js</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Node.js</span>
+                    <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ASP.NET</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">MongoDB</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ServiceNow</span>
                     <span className="px-2 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">Tailwind</span>
@@ -391,6 +393,8 @@ function App() {
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">PostgreSQL</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">HTML</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">CSS</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">C#</span>
+              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">ASP.NET</span>
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 rounded-full text-sm">JavaScript</span>
             </div>
           </div>
